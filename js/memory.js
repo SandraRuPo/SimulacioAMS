@@ -40,3 +40,4 @@ function mostraCartes()
         descrip.innerHTML = 'Aquest tauler no es vàlid. Torna a introduir el número de files.';
     }
 }
+
