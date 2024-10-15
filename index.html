@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/memory.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <main id = 'main'>
+            <div id = 'formulari' class="col-8" alt = "">
+                <p id="titol">Benvingut al Memory de</p>
+                <img id = "logo" src='/images/logo2.png'>
+                <form>
+                    Escull el nÃºmero de files, ha de ser parell (2,4,6): 
+                    <input type="text" id = 'numero'>
+                </form>
+                <button onclick = "mostraCartes()" onclick = "reparteixCartes()">Repartir Cartes</button>
+            </div>
+            <div id = 'descripcio' class="col-8"></div>
+
+            <div id = 'tabla' class="col-10"></div>
+            </table>
+        </main>
+        <footer>
+            <p id = 'firma'><img id = 'estrella' src="./images/estrella.webp" width="30"> Sandra Rubio Poveda<img id = 'estrella' src="./images/estrella.webp" width="30"></p>
+        </footer>
+    </body>
+</html>
