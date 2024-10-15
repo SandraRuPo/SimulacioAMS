@@ -120,3 +120,14 @@ function giraCarta(carta)
         acabat();
     }
 }
+
+function enhorabona() {
+    var main = document.getElementById('main');
+    main.innerHTML = '';
+    main.innerHTML = "<div id = 'final'><h1>ENHORABONA! HAS GUANYAT!</h1><img src ='./images/friends.webp' id = 'logo2'><button onclick = 'comenca()'>Torna a començar</button></div>";
+}
+
+
+function comenca() {
+    window.location.reload();
+}
