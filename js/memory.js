@@ -40,3 +40,12 @@ function mostraCartes()
         descrip.innerHTML = 'Aquest tauler no es vàlid. Torna a introduir el número de files.';
     }
 }
+
+function reparteixCartes()
+{
+    var num = parseInt(document.getElementById('numero').value);
+    for (var i = 1; i<=num;i++)
+    {
+        document.getElementsByClassName("carta"+i);
+    }
+}
